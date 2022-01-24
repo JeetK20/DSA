@@ -2,7 +2,7 @@ package com.Jeet.Day1.Challenge1;
 
 public class MyArray {
 
-    int[] reverseArray(int[] arr){
+    public int[] reverseArray(int[] arr){
         int[] temp =  new int[arr.length];
         int len = temp.length;
         for (int i = 0; i < arr.length; i++,len--)
